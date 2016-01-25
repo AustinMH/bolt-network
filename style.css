@@ -1,0 +1,126 @@
+html, body {
+  font-family: "Oxygen", sans-serif; 
+  font-weight: 300; 
+  margin: 0;
+  padding: 0;
+}
+
+body {
+ 	background-color:black;
+}
+
+button {
+ 	background-color:transparent; 
+}
+
+h2, li {
+ 	color:#0393ff; 
+}
+
+h3, p {
+ 	color:white; 
+}
+
+.supporting p {
+ 	color:white; 
+  margin-bottom:50px;
+} 
+}
+
+.container {
+  max-width: 970px;
+}
+
+.btn {
+ 	margin:0px 10px; 
+}
+
+.btn-lht {
+  color:white;
+  border:1px solid white;
+  border-radius:0px;
+}
+
+.btn-lht:hover {
+ 	color:black;
+  background-color:white;
+}
+
+.btn-drk {
+ 	color:#0393ff; 
+  border:1px solid #0393ff;
+  border-radius:0px;
+}
+
+.btn-drk:hover {
+ 	color:black;
+  background-color:#0393ff;
+}
+
+/*Jumbotron*/
+.jumbotron {
+ 	background-color:black; 
+  margin-bottom:100px;
+}
+.jumbotron img {
+ 	width:200px;
+}
+
+.jumbotron .container {
+  margin-bottom:100px;
+}	
+/*Main*/
+.main {
+ 	text-align:center; 
+}
+
+.main h1 {
+  color:white;
+  margin-bottom:30px;
+}
+
+.main a {
+ 	margin-bottom:100px; 
+}
+
+#search {
+    background: transparent;
+    border: 0px;
+    border-radius: 0;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    font-size: 18px;
+    margin: 0 20px;
+}
+
+/*Supporting*/
+.supporting {
+  text-align:center;
+}
+
+.supporting p { 
+  margin-bottom:50px;
+}
+
+.thumbnail {
+ 	border:none; 
+  background:transparent;
+}
+
+/*Feature*/
+.feature {	background:url('https://s3.amazonaws.com/codecademy-content/projects/bolt-network/feature.jpg'); 
+  background-repeat:no-repeat;
+  background-position:center center;
+  background-size:cover;
+  text-align:center;
+  height:380px;
+}
+
+.feature h2 {
+ 	margin-top:150px; 
+}
+
+/*Footer*/
+.footer ul {
+  list-style:none; 
+}
